@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void)
+{
+	int a, b, c, d, e;
+
+	scanf("%d", &a);
+	scanf("%d", &b);
+	c = a * (b % 10);
+	d = a * ((b % 100) / 10);
+	e = a * (b / 100);
+
+	printf("%d \n", c);
+	printf("%d \n", d);
+	printf("%d\n", e);
+	printf("%d\n", a * b);
+
+
+
+	
+	return 0;
+}

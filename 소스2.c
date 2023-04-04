@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void)
+{
+	int a;
+
+	printf("초를 입력하세요: ");
+	scanf("%d", &a);
+	printf("%d일 %d시간 %d분 %d초", a / 86400, (a / 3600) % 24, (a / 60) % 60, a % 60);
+
+
+
+
+	return 0;
+}
