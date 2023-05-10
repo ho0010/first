@@ -11,7 +11,7 @@ int main()
 	int c=1, a = rand();
 	a = (a % 26) + 97;
 
-	printf("'a'~'z'»çÀÌÀÇ ¹®ÀÚ¸¦ ÃßÃø : ");
+	printf("'a'~'z'ì‚¬ì´ì˜ ë¬¸ìë¥¼ ì¶”ì¸¡ : ");
 	scanf(" %c", &b);
 
 	while (b != a)
@@ -20,13 +20,13 @@ int main()
 		if (b < a)
 		{
 			printf("LOW\n");
-			printf("'a'~'z'»çÀÌÀÇ ¹®ÀÚ¸¦ ÃßÃø : ");
+			printf("'a'~'z'ì‚¬ì´ì˜ ë¬¸ìë¥¼ ì¶”ì¸¡ : ");
 			scanf(" %c", &b);
 		}
 		else
 		{
 			printf("HIGH\n");
-			printf("'a'~'z'»çÀÌÀÇ ¹®ÀÚ¸¦ ÃßÃø : ");
+			printf("'a'~'z'ì‚¬ì´ì˜ ë¬¸ìë¥¼ ì¶”ì¸¡ : ");
 			scanf(" %c", &b);
 
 		}
@@ -34,5 +34,5 @@ int main()
 
 	}
 	
-	printf("Á¤´äÀº %c , ½ÃµµÈ½¼ö = %d", a, c);
+	printf("ì •ë‹µì€ %c , ì‹œë„íšŸìˆ˜ = %d", a, c);
 }
